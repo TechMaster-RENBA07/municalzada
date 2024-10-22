@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Municipalidad Calzada</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="img/logo.png">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo del morro de calzada">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">La municipalidad</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+            </ul>
+        </nav>
+        <a class="btn" href="contacto.html"><button>Contacto</button></a>
+        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">La municipalidad</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="#">Noticias</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider-frame">
+        <ul>
+            <li><img src="img/slider1.jpg" alt=""></li>
+            <li><img src="img/slider2.jpg" alt=""></li>
+            <li><img src="img/slider3.jpg" alt=""></li>
+            <li><img src="img/slider4.jpg" alt=""></li>
+        </ul>
+    </div>
+    <section class="botones">
+        <div class="contenedor-botones">
+            <a href="https://www.gob.pe/institucion/municalzada/tramites-y-servicios" class="btn-1"><img src="img/boton1.svg" alt="">Trámites y servicios municipales</a>
+            <a href="proyectos.html" class="btn-1"><img src="img/boton2.svg" alt="">Obras y proyectos realizados</a>
+        </div>
+
+        <div class="contenedor-botones">
+            <a href="https://facilita.gob.pe/t/1015" class="btn-1"><img src="img/boton3.svg" alt="">Libro de reclamaciones</a>
+            <a href="https://www.gob.pe/municalzada" class="btn-1"><img src="img/boton4.svg" alt="">Centro de atención al ciudadano</a>
+        </div>
+    </section>
+
+    <section class="anuncio">
+        <h2>Campañas y convocatorias</h2>
+        <div class="imagen-anuncio">
+            <img src="img/empleo.png" alt="">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>Municipalidad</h4>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="proyectos.html">Nuestros proyectos</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Siguenos</h4>
+                    <div class="social-link">
+                        <a href="https://www.facebook.com/p/Municipalidad-Distrital-de-Calzada-Gesti%C3%B3n-2023-2026-Oficial-100088947232198/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script type="text/javascript" src="js/nav.js"></script>
+</body>
+</html>

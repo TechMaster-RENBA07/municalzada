@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Municipalidad Calzada</title>
+    <link rel="stylesheet" href="css/proyectos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="shortcut icon" href="img/logo.png">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo del morro de calzada">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">La municipalidad</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="#">Noticias</a></li>
+            </ul>
+        </nav>
+        <a class="btn" href="contacto.html"><button>Contacto</button></a>
+        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+        
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">La municipalidad</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="#">Noticias</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="seccion contenedor">
+        <h2 class="fw-300 centrar-texto">PROYECTOS</h2>
+
+        <div class="contenedor-anuncios">
+            <div class="anuncio">
+                <img class="imagen-proyectos" src="img/Noticia 1.jpeg" alt="Noticia 1">
+                <div class="contenido-anuncio">
+                    <h3>Política Nacional en Discapacidad para el Desarrollo</h3>
+                    <p>Resolución Ministerial N°030-2021-MIMP</p>
+                    <p class="precio">19 de febrero de 2021 - 2:00 p. m</p>
+                    <br>
+                    <br>
+                    <a href="https://www.gob.pe/municalzada" class="boton boton-amarillo d-block">Ver Proyecto</a>
+                </div>
+            </div>
+
+            <div class="anuncio">
+                <img class="imagen-proyectos" src="img/Noticia 2.jfif" alt="Noticia 2">
+                <div class="contenido-anuncio">
+                    <h3>Reunión de Presentación de la Propuesta del Plan de Gestión de Recursos Hídricos de la Cuenca del Río Mayo.</h3>
+                    <p>Planificación a Mediano Plazo - 2030 “La Cuenca que Podemos"</p>
+                    <p class="precio">14 de mayo de 2021 - 2:22 p. m.</p>
+                    <a href="https://www.gob.pe/municalzada" class="boton boton-amarillo d-block">Ver Proyecto</a>
+                </div>
+            </div>
+
+            <div class="anuncio">
+                <img class="imagen-proyectos" src="img/Noticia 3.jfif" alt="Noticia 3">
+                <div class="contenido-anuncio">
+                    <h3>Proyecto de inversión de la Municipalidad Distrital de Calzada</h3>
+                    <p>Tiene un 20% Ejecución de Obra</p>
+                    <p class="precio">4 de agosto de 2021 - 10:47 a. m.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="https://www.gob.pe/municalzada" class="boton boton-amarillo d-block">Ver Proyecto</a>
+                </div><!--contenido anuncio-->
+            </div> <!--anuncio-->
+
+            <div class="anuncio">
+                <img class="imagen-proyectos" src="img/Noticia 4.jfif" alt="Noticia 4">
+                <div class="contenido-anuncio">
+                    <h3>Megaproyecto que incluye la construcción de un Teleférico en el Morro de Calzada.</h3>
+                    <p>Para descentralizar el Turismo Nacional.</p>
+                    <p class="precio">19 de noviembre de 2021 - 10:50 a. m.</p>
+                    <a href="https://www.gob.pe/municalzada" class="boton boton-amarillo d-block">Ver Proyecto</a>
+                </div><!--contenido anuncio-->
+            </div> <!--anuncio-->
+        
+            <div class="anuncio">
+                <img class="imagen-proyectos" src="img/Noticia 5.jpg" alt="Noticia 5">
+                <div class="contenido-anuncio">
+                    <h3>Proyecto: “Empadronamiento de Productores Agrarios para la Subvención Económico por la compra de Fertilizantes 2021 – 2022”</h3>
+                    <p>En la Provincia de Moyobamba.</p>
+                    <p class="precio">14 de enero de 2022 - 4:06 p. m.</p>
+                    <a href="https://www.gob.pe/municalzada" class="boton boton-amarillo d-block">Ver Proyecto</a>
+                </div><!--contenido anuncio-->
+            </div> <!--anuncio-->
+
+            <div class="anuncio">
+                <img class="imagen-proyectos" src="img/Noticia 6.jpg" alt="Noticia 6">
+                <div class="contenido-anuncio">
+                    <h3>Municipalidad Distrital de Calzada</h3>
+                    <p>Viene realizando el mejoramiento del Estadio Municipal</p>
+                    <p class="precio">3 de agosto de 2023 - 7:01 p. m.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="https://www.gob.pe/municalzada" class="boton boton-amarillo d-block">Ver Proyecto</a>
+                </div><!--contenido anuncio-->
+            </div> <!--anuncio-->
+        </div>
+    </main>
+
+<!--SECCION NOTICIAS----------------------------------------------------------------------
+    <main class="contenedor seccion contenido-centrado">
+        <h1 class="fw-300 centrar-texto">PROYECTOS</h1>
+
+        <article class="entrada-blog">
+            <div class="imagen">
+                <img class="imagen-proyectos" src="img/Noticia 1.jpeg" alt="Entrada de blog">
+            </div>
+            <div class="texto-entrada">
+                <a href="entrada.html">
+                    <h4>Política Nacional en Discapacidad para el Desarrollo</h4>
+                </a>
+                <p> <span> 19 de febrero de 2021 - 2:00 p. m </span> </p>
+                <p>Resolución Ministerial N°030-2021-MIMP</p>
+            </div>
+        </article>
+
+
+        <article class="entrada-blog">
+            <div class="imagen">
+                <img  class="imagen-proyectos" src="img/Noticia 2.jfif" alt="Entrada de blog">
+            </div>
+            <div class="texto-entrada">
+                <a href="entrada.html">
+                    <h4>Reunión de Presentación de la Propuesta del Plan de Gestión de Recursos Hídricos de la Cuenca del Río Mayo.</h4>
+                </a>
+                <p> <span> 14 de mayo de 2021 - 2:22 p. m.</span> </p>
+                <p>Planificación a Mediano Plazo - 2030 “La Cuenca que Podemos"</p>
+            </div>
+        </article>
+
+
+        <article class="entrada-blog">
+            <div class="imagen">
+                <img class="imagen-proyectos" src="img/Noticia 3.jfif" alt="Entrada de blog">
+            </div>
+            <div class="texto-entrada">
+                <a href="entrada.html">
+                    <h4>Proyecto de inversión de la Municipalidad Distrital de Calzada</h4>
+                </a>
+                <p> <span> 4 de agosto de 2021 - 10:47 a. m.</span> </p>
+                <p>Tiene un 20% Ejecución de Obra</p>
+            </div>
+        </article>
+
+
+        <article class="entrada-blog">
+            <div class="imagen">
+                <img class="imagen-proyectos" src="img/Noticia 4.jfif" alt="Entrada de blog">
+            </div>
+            <div class="texto-entrada">
+                <a href="entrada.html">
+                    <h4>Megaproyecto que incluye la construcción de un Teleférico en el Morro de Calzada.</h4>
+                </a>
+                <p> <span> 19 de noviembre de 2021 - 10:50 a. m.</span> </p>
+                <p>Para descentralizar el Turismo Nacional.</p>
+            </div>
+        </article>
+
+
+        <article class="entrada-blog">
+            <div class="imagen">
+                <img class="imagen-proyectos" src="img/Noticia 5.jpg" alt="Entrada de blog">
+            </div>
+            <div class="texto-entrada">
+                <a href="entrada.html">
+                    <h4>Proyecto: “Empadronamiento de Productores Agrarios para la Subvención Económico por la compra de Fertilizantes 2021 – 2022”</h4>
+                </a>
+                <p> <span> 14 de enero de 2022 - 4:06 p. m.</span> </p>
+                <p>En la Provincia de Moyobamba</p>
+            </div>
+        </article>
+
+
+        <article class="entrada-blog">
+            <div class="imagen">
+                <img class="imagen-proyectos" src="img/Noticia 6.jpg" alt="Entrada de blog">
+            </div>
+            <div class="texto-entrada">
+                <a href="entrada.html">
+                    <h4>Municipalidad Distrital de Calzada</h4>
+                </a>
+                <p> <span> 3 de agosto de 2023 - 7:01 p. m.</span> </p>
+                <p>Viene realizando el mejoramiento del Estadio Municipal</p>
+            </div>
+        </article>
+
+    </main>
+    -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>Municipalidad</h4>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="proyectos.html">Nuestros proyectos</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Siguenos</h4>
+                    <div class="social-link">
+                        <a href="https://www.facebook.com/p/Municipalidad-Distrital-de-Calzada-Gesti%C3%B3n-2023-2026-Oficial-100088947232198/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script type="text/javascript" src="js/nav.js"></script>
+</body>
+</html>
